@@ -117,6 +117,10 @@ body {
 
 }
 
+.hide{
+    display: none;
+}
+
 .container-password:hover .tooltip {
     visibility: visible;
     bottom: 50px;
