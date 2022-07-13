@@ -1,24 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gerador de senha</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Gerador de Senha</title>
     <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
-    <h1 class="ger">GERADOR DE SENHA</h1>
+    <h1 class="logo">Gerador de Senha</h1>
 
     <main class="container-input">
         <span>Tamanho <span id="valor"></span> caracteres</span>
-        <input id="slider" class="slider" type="range" min="8" max="25" value="15" />
+        <input id="slider" class="slider" type="range" min="8" max="25" value="15"/>
+
         <button id="button" class="button-cta" onclick="generatePassword()">Gerar senha</button>
+
     </main>
 
     <div id="container-password" onclick="copyPassword()" class="container-password hide">
@@ -27,7 +25,6 @@
         <span class="tooltip">Clique na senha para copiar.</span>
     </div>
 
-    <script src="script.js"></script>
+ <script src="script.js"></script>
 </body>
-
 </html>
